@@ -78,4 +78,74 @@ source ~/.bashrc
 ```
 mkdir my-drosera-trap && cd my-drosera-trap
 ```
+* Set your Git identity (replace with your actual GitHub email and username):
+```
+git config --global user.email "you@example.com"
+```
+```
+git config --global user.name "your_username"
+```
+* Initialize the Trap template
+```
+forge init -t drosera-network/trap-foundry-template
+```
+* Install JS dependencies and compile:
+```
+bun install
+forge build
+```
+<img width="1028" height="307" alt="image" src="https://github.com/user-attachments/assets/0c904520-c591-4169-bb9f-94230257b32b" />
+
+**DEPLOY TRAP**
+```
+DROSERA_PRIVATE_KEY=PV_KEY drosera apply
+```
+* Replace `PV_KEY` with your `EVM` Private Key
+* Once it asks, just type `ofc` and hit Enter
+
+# For Existing users
+* If you’ve deployed a Trap before, you might run into an error as an existing user. To fix it, just open your `drosera.toml` file and add your Trap address manually.
+
+Search for your trap by searching for your wallet address here app.drosera.io
+<img width="1870" height="542" alt="image" src="https://github.com/user-attachments/assets/adbfcdaf-7e75-41c1-b897-b43134681bc2" />
+
+Click on `Trap config` Highlighted in yellow <img width="941" height="441" alt="image" src="https://github.com/user-attachments/assets/c01dc53e-a4d7-4cea-8688-9ff464a6123d" />
+
+Here is your trap address <img width="938" height="124" alt="image" src="https://github.com/user-attachments/assets/ef73e294-a0fd-42f3-8970-dda5067386c6" />
+
+Run this command while still in `my-drosera-trap` directory:
+```
+nano drosera.toml
+```
+Add your Trap address in this format:
+```
+whitelist = ["YOUR WALLET ADDRESS"]
+address = "YOUR TRAP ADDRESS"
+```
+<img width="887" height="477" alt="image" src="https://github.com/user-attachments/assets/928c7824-7562-49b4-b818-875db083d25b" />
+
+Apply changes with this command:
+```
+DROSERA_PRIVATE_KEY=PV_KEY drosera apply
+```
+
+# Step 3: Check your deployed Trap on Drosera Dashboard  
+
+Connect your Drosera EVM wallet at app.drosera.io
+
+Then, click **"Traps Owned"** to view your deployed Traps, or simply search for your Wallet address. <img width="1907" height="888" alt="image" src="https://github.com/user-attachments/assets/0a48a0a7-5080-470f-9d71-147f1451a73f" />
+
+# Step 4: Send Bloom Boost
+Deposit `Hoodi ETH` by clicking on **Send Bloom Boost** highlighted in yellow <img width="839" height="361" alt="image" src="https://github.com/user-attachments/assets/0abd86b9-2ef7-4a2f-a520-24a3c87aa254" />
+
+# Step 5: Verify configuration and check for errors
+```
+drosera dryrun
+```
+
+
+
+
+
+
 
