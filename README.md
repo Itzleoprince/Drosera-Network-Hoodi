@@ -1,5 +1,5 @@
-# Drosera-Network-Hoodi
-This guide outlines the steps to participate in the Drosera Hoodi testnet, using your PHONE or VPS. 
+# Earn Cadet and Corporal role (Drosera-Network-Hoodi)
+This guide outlines the steps to participate in the Drosera Hoodi testnet and earn Cadet and Corporal role, using your PHONE or VPS. 
 
 # System Setup Recommendations
 * At least 4 GB of RAM
