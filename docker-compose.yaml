@@ -8,7 +8,7 @@ services:
       - "31314:31314"
     volumes:
       - drosera_data:/data
-    command: node --db-file-path /data/drosera.db --network-p2p-port 31313 --server-port 31314 --eth-rpc-url YOUR PERSONAL HOODI RPC --eth-backup-rpc-url ttps://hoodi.drpc.org --drosera-address 0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D --eth-private-key ${ETH_PRIVATE_KEY} --listen-address 0.0.0.0 --network-external-p2p-address ${VPS_IP} --disable-dnr-confirmation true
+    command: node --db-file-path /data/drosera.db --network-p2p-port 31313 --server-port 31314 --eth-rpc-url YOUR PERSONAL HOODI RPC --eth-backup-rpc-url https://hoodi.drpc.org --drosera-address 0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D --eth-private-key ${ETH_PRIVATE_KEY} --listen-address 0.0.0.0 --network-external-p2p-address ${VPS_IP} --disable-dnr-confirmation true
     restart: always
 
 volumes:
