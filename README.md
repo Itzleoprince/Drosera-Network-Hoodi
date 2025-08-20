@@ -86,6 +86,18 @@ git config --global user.email "you@example.com"
 ```
 git config --global user.name "your_username"
 ```
+* Initialize the Trap template
+```
+forge init -t drosera-network/trap-foundry-template
+```
+* Install JS dependencies and compile:
+```
+bun install
+forge build
+```
+
+<img width="1028" height="307" alt="image" src="https://github.com/user-attachments/assets/0c904520-c591-4169-bb9f-94230257b32b" />
+
 
 # Push your `Discord Username` on-chain and earn CADET role
 
@@ -128,17 +140,6 @@ contract Trap is ITrap {
 * Change `YOUR-DISCORD-USERNAME` to match your actual Discord Username
 * Save File
 
-* Initialize the Trap template
-```
-forge init -t drosera-network/trap-foundry-template
-```
-* Install JS dependencies and compile:
-```
-bun install
-forge build
-```
-
-<img width="1028" height="307" alt="image" src="https://github.com/user-attachments/assets/0c904520-c591-4169-bb9f-94230257b32b" />
 
 **Edit Drosera.toml file**
 ```
