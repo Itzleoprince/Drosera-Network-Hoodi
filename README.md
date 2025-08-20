@@ -152,6 +152,15 @@ nano drosera.toml
 
 <img width="809" height="403" alt="image" src="https://github.com/user-attachments/assets/fd1c2295-736d-4daa-b038-b4120b72323f" />
 
+* Initialize the Trap template
+```
+forge init -t drosera-network/trap-foundry-template
+```
+* Install JS dependencies and compile:
+```
+bun install
+forge build
+```
 
 **DEPLOY TRAP**
 ```
