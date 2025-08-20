@@ -149,13 +149,10 @@ nano drosera.toml
 * `path` = `"out/Trap.sol/Trap.json"`
 * `response_contract` = `"0x25E2CeF36020A736CF8a4D2cAdD2EBE3940F4608"`
 * `response_function` = `"respondWithDiscordName(string)"`
-
+* edit `whitelisist` in this format
+whitelist = ["YOUR WALLET ADDRESS"]
 <img width="809" height="403" alt="image" src="https://github.com/user-attachments/assets/fd1c2295-736d-4daa-b038-b4120b72323f" />
 
-* Initialize the Trap template
-```
-forge init -t drosera-network/trap-foundry-template
-```
 * Install JS dependencies and compile:
 ```
 bun install
