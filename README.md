@@ -285,7 +285,7 @@ sudo ufw allow 31314/tcp
 git clone https://github.com/Itzleoprince/Drosera-Network-Hoodi
 ```
 ```
-cd Drosera-Network
+cd Drosera-Network-Hoodi
 ```
 ```
 cp .env.examples .env
