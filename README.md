@@ -103,7 +103,7 @@ forge build
 
 * Create new file 
 ```
-nano src/Trap.sol
+nano src/DiscordTrap.sol
 ```
 * Copy and paste this contract code inside:
 ```
@@ -146,7 +146,7 @@ contract Trap is ITrap {
 nano drosera.toml
 ```
 * Update the variables with the following values:
-* `path` = `"out/Trap.sol/Trap.json"`
+* `path` = `"out/DiscordTrap.sol/Trap.json"`
 * `response_contract` = `"0x25E2CeF36020A736CF8a4D2cAdD2EBE3940F4608"`
 * `response_function` = `"respondWithDiscordName(string)"`
 * edit `whitelisist` in this format
