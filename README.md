@@ -231,11 +231,11 @@ cd ~
 ```
 * Download
 ```
-curl -LO https://github.com/drosera-network/releases/releases/download/v1.21.2/drosera-operator-v1.21.2-x86_64-unknown-linux-gnu.tar.gz
+curl -LO https://github.com/drosera-network/releases/releases/download/v1.23.0/drosera-operator-v1.23.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 * Install
 ```
-tar -xvf drosera-operator-v1.21.2-x86_64-unknown-linux-gnu.tar.gz
+tar -xvf drosera-operator-v1.23.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 
 * Move drosera-operator
